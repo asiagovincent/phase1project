@@ -1,49 +1,84 @@
 {
-    "pictures": [
-      {
-        "id": "1",
-        "description": "",
-        "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQO0NHX7CKk2kKIH7s1VitjIZFNOszPQnq3aPRdr1_KHkesypdU"
-      },  {
-        "id": "2",
-        "description": "",
-        "picture": ""
-      },  {
-        "id": "3",
-        "description": "",
-        "picture": ""
-      },  {
-        "id": "4",
-        "description": "",
-        "picture": ""
-      },  {
-        "id": "5",
-        "description": "",
-        "picture": ""
-      },  {
-        "id": "6",
-        "description": "",
-        "picture": ""
-      },  {
-        "id": "7",
-        "description": "",
-        "picture": ""
-      },  {
-        "id": "8",
-        "description": "",
-        "picture": ""
-      },  {
-        "id": "9",
-        "description": "",
-        "picture": ""
-      },  {
-        "id": "10",
-        "description": "",
-        "picture": ""
-      }
-     
-    ]
-   }
-   
-   
-   
+  "buses": [
+    {
+      "id": 1,
+      "route": "BOOMBOX",
+      "price": 10.50,
+      
+      
+      "imageUrl": "https://i.pinimg.com/736x/67/4a/65/674a65e8d15810f2a48884ebd6e7cbe9.jpg"
+    },
+    {
+      "id": 2,
+      "route": "OFF SPRING",
+      "price": 12.00,
+      "description": "Explore the scenic beauty of Route B from City P to City Q.",
+      "seats_available": 25,
+      "imageUrl": "https://i.pinimg.com/736x/f0/6b/86/f06b862448417da74938ab7fc88cbe09.jpg"
+    },
+    {
+      "id": 3,
+      "route": "MAD HATTER",
+      "price": 8.75,
+      "description": "A budget-friendly option to reach City M from City N.",
+      "seats_available": 40,
+      "imageUrl": "https://i.pinimg.com/564x/95/b1/6b/95b16b3a3812fc9d44252895029add30.jpg"
+    },
+    {
+      "id": 4,
+      "route": "CYPER PUNK",
+      "price": 15.25,
+      "description": "A luxury bus experience from City Z to City W.",
+      "seats_available": 18,
+      "imageUrl": "https://i.pinimg.com/736x/da/8b/02/da8b0267b3fa49701f85cf0b5d66e5e7.jpg"
+    },
+    {
+      "id": 5,
+      "route": "OPPOSITE",
+      "price": 9.99,
+      "description": "City H to City S express service.",
+      "seats_available": 50,
+      "imageUrl": "https://i.pinimg.com/736x/6d/75/07/6d750722ed139ec66b40b5c64c74a18a.jpg"
+    },
+    {
+      "id": 6,
+      "route": "SUGAR",
+      "price": 11.75,
+      "description": "An eco-friendly bus option from City L to City R.",
+      "seats_available": 35,
+      "imageUrl": "https://i.pinimg.com/564x/2e/c0/c9/2ec0c9a6f3203edfb1fa883ecab21d78.jpg"
+    },
+    {
+      "id": 7,
+      "route": "HOT METEL",
+      "price": 13.50,
+      "description": "Scenic Route G, perfect for tourists.",
+      "seats_available": 28,
+      "imageUrl": "https://i.pinimg.com/564x/bf/69/5c/bf695c45ab10e58b04003a35afeec1d1.jpg"
+    },
+    {
+      "id": 8,
+      "route": "JINX",
+      "price": 10.00,
+      "description": "Convenient and fast City Q to City K service.",
+      "seats_available": 42,
+      "imageUrl": "https://i.pinimg.com/564x/f0/d6/07/f0d607b3968304f265fcd1030e6a3d45.jpg"
+    },
+    {
+      "id": 9,
+      "route": "DEXTER",
+      "price": 14.75,
+      "description": "Illuminated Route I for evening travelers.",
+      "seats_available": 22,
+      "imageUrl": "https://i.pinimg.com/564x/8d/2f/01/8d2f01d46105783dabdb4903e6ac616d.jpg"
+    },
+    {
+      "id": 10,
+      "route": "VOICE MAIL",
+      "price": 12.99,
+      "description": "City N to City M with stops at key landmarks.",
+      "seats_available": 45,
+      "imageUrl": "https://i.pinimg.com/564x/25/ad/30/25ad3039746f88688fc4085265f3f041.jpg"
+    }
+  ]
+}

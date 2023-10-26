@@ -33,3 +33,14 @@ body{
 .footer{
     background: #cce282;
 }
+
+.bus-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    display: inline-block;
+    
+    
+    
+}
