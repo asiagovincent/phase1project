@@ -1,7 +1,7 @@
 
         async function fetchBusData() {
             try {
-                const response = await fetch('http://localhost:3000/buses'); // Replace with your JSON server URL.
+                const response = await fetch('https://my-json-server.typicode.com/asiagovincent/phase1project/buses'); // Replace with your JSON server URL.
                 if (!response.ok) {
                     throw new Error('Unable to fetch bus information');
                 }
