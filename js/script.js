@@ -27,4 +27,30 @@
         }
 
         fetchBusData();
+
+
+
+        document.getElementById('subscribeButton').addEventListener('click', function () {
+            const email = document.getElementById('emailInput').value;
+            if (isValidEmail(email)) {
+                document.getElementById('subscriptionMessage').textContent = 'Subscription Successful';
+                // Here, you can add code to send the email to your server or perform other actions.
+            } else {
+                document.getElementById('subscriptionMessage').textContent = 'Invalid email. Please enter a valid email address.';
+            }
+        });
+
+        function isValidEmail(email) {
+            // Simple email validation. You can use a more robust validation method.
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+
+        document.getElementById('loadContentButton').addEventListener('click', function () {
+            // Create and append content to the content container
+            const contentContainer = document.getElementById('contentContainer');
+            const contentElement = document.createElement('div');
+            contentElement.textContent = 'The Subscription was successful';
+            contentContainer.appendChild(contentElement);
+        });
     
